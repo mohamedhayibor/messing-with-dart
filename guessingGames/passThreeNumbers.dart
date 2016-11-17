@@ -10,7 +10,7 @@ void magicNumWithin(List<number> nums, Int magicNumber) {
 void main(List<arguments> nums) {
   // warn user how to play if num is empty
   if (nums.isEmpty || nums.length != 3) {
-    print("\nPlease pass in 3 numbers to get the magic number between [0 - 10]\n\nTo do so like `> dart passThreeNumbers.dart num1 num2 num3`");
+    print("\nPlease pass in 3 numbers to get the magic number between [0 - 10]\n\nTo do so like `$ dart passThreeNumbers.dart num1 num2 num3`");
     exit(0);
   }
 
