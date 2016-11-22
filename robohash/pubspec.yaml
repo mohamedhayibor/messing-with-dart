@@ -1,0 +1,18 @@
+name: 'robohash'
+version: 0.0.0-mess
+description: Just messing with Robohash and Dart
+#author: Mohamed Hayibor <mohamedhayibor@gmail.com>
+#homepage: https://github.com/mohamedhayibor/messing-with-dart
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+#dependencies:
+#  my_dependency: any
+
+dev_dependencies:
+  browser: '>=0.10.0 <0.11.0'
+  dart_to_js_script_rewriter: '^1.0.1'
+
+transformers:
+- dart_to_js_script_rewriter
